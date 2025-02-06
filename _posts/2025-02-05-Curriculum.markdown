@@ -13,7 +13,7 @@ categories: jekyll update
 ### Sobre Minerva
 * **Edad**: 19 años
 * **Localidad**: Estación de Blanca / Blanca / Murcia
-* **Sexo**: F
+*  **Sexo**: F
 ---
 Experta en ocio nocturno con 34 años de experiencia en el sector.
 ## Experiencia profesional

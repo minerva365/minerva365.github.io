@@ -1,0 +1,224 @@
+---
+
+layout: post
+title: Bar El Buen Trago
+categories: jekyll update
+
+---
+
+
+
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bar El Buen Trago</title>
+    <style>
+        /* Estilos generales */
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f4;
+            color: #333;
+        }       
+
+        header {
+            background-color: #333;
+            color: white;
+            padding: 20px;
+            text-align: center;
+        }
+
+        header nav ul {
+            list-style: none;
+            padding: 0;
+        }   
+
+        header nav ul li {
+            display: inline;
+            margin: 0 10px;
+        }
+
+        header nav ul li a {
+            color: white;
+            text-decoration: none;
+            font-size: 18px;
+        }       
+
+        header .logo h1 {
+            margin: 0;
+        }
+
+        /* Sección de bienvenida */
+        #home {
+            background-color: #ff5722;
+            color: white;
+            padding: 50px;
+            text-align: center;
+        }
+
+        #home .banner h2 {
+            font-size: 36px;
+        }
+
+        /* Sección de Menú */
+        #menu {
+            padding: 50px 20px;
+            background-color: #fff;
+            text-align: center;
+        }
+
+        #menu h2 {
+            font-size: 30px;
+        }
+
+        .menu-items {
+            display: flex;
+            justify-content: center;
+            gap: 40px;
+        }
+
+        .menu-items .item {
+            width: 200px;
+            text-align: left;
+        }
+
+        .menu-items .item h3 {
+            font-size: 24px;
+            margin-bottom: 10px;
+        }
+
+        .menu-items .item ul {
+            list-style: none;
+            padding: 0;
+        }
+
+        .menu-items .item ul li {
+            margin-bottom: 8px;
+        }
+
+        /* Sección de Sobre Nosotros */
+        #about {
+            padding: 50px 20px;
+            background-color: #f4f4f4;
+            text-align: center;
+        }
+
+        /* Sección de Contacto */
+        #contact {
+            padding: 50px 20px;
+            background-color: #ff5722;
+            color: white;
+            text-align: center;
+        }
+
+        #contact form {
+            max-width: 400px;
+            margin: 0 auto;
+        }
+
+        #contact input, #contact textarea {
+            width: 100%;
+            padding: 10px;
+            margin-bottom: 10px;
+            border: 1px solid #ccc;
+            border-radius: 4px;
+        }
+
+        #contact button {
+            padding: 10px 20px;
+            background-color: #333;
+            color: white;
+            border: none;
+            border-radius: 4px;
+            cursor: pointer;
+        }
+
+        #contact button:hover {
+            background-color: #555;
+        }
+
+        /* Pie de página */
+        footer {
+            text-align: center;
+            padding: 20px;
+            background-color: #333;
+            color: white;
+        }
+
+        footer p {
+            margin: 0;
+        }
+    </style>
+
+</head>
+<body>
+
+    <header>
+        <div class="logo">
+            <h1>Bar El Buen Trago</h1>
+        </div>
+        <nav>
+            <ul>
+                <li><a href="#home">Inicio</a></li>
+                <li><a href="#menu">Menú</a></li>
+                <li><a href="#about">Sobre Nosotros</a></li>
+                <li><a href="#contact">Contacto</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section id="home">
+        <div class="banner">
+            <h2>Bienvenidos al Mejor Bar de la Ciudad</h2>
+            <p>Disfruta de nuestros cócteles exclusivos en un ambiente relajado.</p>
+        </div>
+    </section>
+
+    <section id="menu">
+        <h2>Menú</h2>
+        <div class="menu-items">
+            <div class="item">
+                <h3>Cócteles</h3>
+                <ul>
+                    <li>Margarita</li>
+                    <li>Negroni</li>
+                    <li>Old Fashioned</li>
+                    <li>Martini</li>
+                </ul>
+            </div>
+            <div class="item">
+                <h3>Bebidas sin alcohol</h3>
+                <ul>
+                    <li>Mocktail de fresa</li>
+                    <li>Jugo natural</li>
+                    <li>Agua mineral</li>
+                </ul>
+            </div>
+        </div>
+    </section>
+
+    <section id="about">
+        <h2>Sobre Nosotros</h2>
+        <p>En Bar El Buen Trago nos especializamos en crear una experiencia única con los mejores cócteles, en un ambiente acogedor y lleno de diversión.</p>
+    </section>
+
+    <section id="contact">
+        <h2>Contacto</h2>
+        <p>¿Tienes preguntas? ¡Contáctanos!</p>
+        <form>
+            <input type="text" placeholder="Tu nombre" required>
+            <input type="email" placeholder="Tu correo" required>
+            <textarea placeholder="Tu mensaje" required></textarea>
+            <button type="submit">Enviar</button>
+        </form>
+    </section>
+
+    <footer>
+        <p>&copy; 2025 Bar El Buen Trago | Todos los derechos reservados</p>
+    </footer>
+
+</body>
+</html>

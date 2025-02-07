@@ -7,15 +7,15 @@ categories: jekyll update
 ---
 
 
-
 <!DOCTYPE html>
 <html lang="es">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Bar El Buen Trago</title>
+
     <style>
-        /* Estilos generales */
+        /*General*/
         body {
             font-family: Arial, sans-serif;
             margin: 0;
@@ -42,7 +42,7 @@ categories: jekyll update
         }
 
         header nav ul li a {
-            color: white;
+            color: white !important;
             text-decoration: none;
             font-size: 18px;
         }       
@@ -51,19 +51,19 @@ categories: jekyll update
             margin: 0;
         }
 
-        /* Sección de bienvenida */
-        #home {
+        /*Bienvenida*/
+        #inicio {
             background-color: #ff5722;
             color: white;
             padding: 50px;
             text-align: center;
         }
 
-        #home .banner h2 {
+        #inicio .banner h2 {
             font-size: 36px;
         }
 
-        /* Sección de Menú */
+        /*Menu*/
         #menu {
             padding: 50px 20px;
             background-color: #fff;
@@ -99,27 +99,27 @@ categories: jekyll update
             margin-bottom: 8px;
         }
 
-        /* Sección de Sobre Nosotros */
+        /*Sobre nosotros*/
         #about {
             padding: 50px 20px;
             background-color: #f4f4f4;
             text-align: center;
         }
 
-        /* Sección de Contacto */
-        #contact {
+        /*Contacto*/
+        #contacto {
             padding: 50px 20px;
             background-color: #ff5722;
             color: white;
             text-align: center;
         }
 
-        #contact form {
+        #contacto form {
             max-width: 400px;
             margin: 0 auto;
         }
 
-        #contact input, #contact textarea {
+        #contacto input, #contact textarea {
             width: 100%;
             padding: 10px;
             margin-bottom: 10px;
@@ -127,7 +127,7 @@ categories: jekyll update
             border-radius: 4px;
         }
 
-        #contact button {
+        #contacto button {
             padding: 10px 20px;
             background-color: #333;
             color: white;
@@ -136,11 +136,11 @@ categories: jekyll update
             cursor: pointer;
         }
 
-        #contact button:hover {
+        #contacto button:hover {
             background-color: #555;
         }
 
-        /* Pie de página */
+        /*Pie de Pagina*/
         footer {
             text-align: center;
             padding: 20px;
@@ -152,28 +152,27 @@ categories: jekyll update
             margin: 0;
         }
     </style>
-
 </head>
 <body>
-
+    
     <header>
         <div class="logo">
             <h1>Bar El Buen Trago</h1>
         </div>
         <nav>
             <ul>
-                <li><a href="#home">Inicio</a></li>
+                <li><a href="#inicio">Inicio</a></li>
                 <li><a href="#menu">Menú</a></li>
                 <li><a href="#about">Sobre Nosotros</a></li>
-                <li><a href="#contact">Contacto</a></li>
+                <li><a href="#contacto">Contacto</a></li>
             </ul>
         </nav>
     </header>
 
-    <section id="home">
-        <div class="banner">
+    <section id="inicio">
+        <div id="banner">
             <h2>Bienvenidos al Mejor Bar de la Ciudad</h2>
-            <p>Disfruta de nuestros cócteles exclusivos en un ambiente relajado.</p>
+            <p>Disfrute de nuestros cócteles exclusivos en un ambiente relajado.</p>
         </div>
     </section>
 
@@ -184,17 +183,21 @@ categories: jekyll update
                 <h3>Cócteles</h3>
                 <ul>
                     <li>Margarita</li>
-                    <li>Negroni</li>
-                    <li>Old Fashioned</li>
-                    <li>Martini</li>
+                    <li>Sex on the Beach</li>
+                    <li>Piña Colada</li>
+                    <li>Cosmopolitan</li>
+                    <li>San Francisco</li>
+                    <li>Cubalibre</li>
                 </ul>
             </div>
             <div class="item">
                 <h3>Bebidas sin alcohol</h3>
                 <ul>
-                    <li>Mocktail de fresa</li>
-                    <li>Jugo natural</li>
-                    <li>Agua mineral</li>
+                    <li>Shirley Temple</li>
+                    <li>Michelada sin alcohol</li>
+                    <li>Guacamole 'smoothie'</li>
+                    <li>Limonada Americana</li>
+                    <li>Sangrita</li>
                 </ul>
             </div>
         </div>
@@ -205,7 +208,7 @@ categories: jekyll update
         <p>En Bar El Buen Trago nos especializamos en crear una experiencia única con los mejores cócteles, en un ambiente acogedor y lleno de diversión.</p>
     </section>
 
-    <section id="contact">
+    <section id="contacto">
         <h2>Contacto</h2>
         <p>¿Tienes preguntas? ¡Contáctanos!</p>
         <form>
